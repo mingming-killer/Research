@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ConcurrentTest</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="start">Start</string>
+    <string name="noting">Noting</string>
+    <string name="sync">Synchronized</string>
+    <string name="vol">Volatile</string>
+    <string name="sync_vol">Synchronized and Volatile</string>
+    <string name="atomic">Atomic</string>
+    
+</resources>

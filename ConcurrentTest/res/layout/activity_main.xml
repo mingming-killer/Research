@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/start"
+        android:textSize="24sp"
+        />
+    
+    <RadioGroup
+        android:id="@+id/op_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_start"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/op_noting" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/noting"
+        	android:textSize="16sp"
+        	android:checked="true"
+        	/>
+        <RadioButton
+            android:id="@+id/op_sync" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/sync"
+        	android:textSize="16sp"
+        	/>
+         <RadioButton
+            android:id="@+id/op_vol" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/vol"
+        	android:textSize="16sp"
+        	/>
+         <RadioButton
+            android:id="@+id/op_sync_vol" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/sync_vol"
+        	android:textSize="16sp"
+        	/>
+         <RadioButton
+            android:id="@+id/op_atomic" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/atomic"
+        	android:textSize="16sp"
+        	/>
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/op_group"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        />
+
+</RelativeLayout>
