@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="uil_list_col_num">2</integer>
+    <dimen name="uil_list_item_width">200dp</dimen>
+    <dimen name="uil_list_item_height">153dp</dimen>
+</resources>
